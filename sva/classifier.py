@@ -1,4 +1,4 @@
-# binary classifier for subject-verb agreement
+ # binary classifier for subject-verb agreement
 
 import sys
 import os
@@ -7,7 +7,6 @@ import numpy as np
 from senteval_tool import MLP
 import json
 import glob
-
 def read_json(inp_file, layer):
   X, y = [], []
   with open(inp_file, 'r') as f:
